@@ -1,5 +1,6 @@
 #include "explain.h"
 #include "splash.h"
+#include "level.h"
 
 
 
@@ -7,9 +8,10 @@
 int main()
 try {
 
-
- Explanation description{Point{100,100},600,400,"Description"};
- Splash_screen splash{Point{100,100},600,400,"Splash"};
+	Point t1(100,100);
+	Level_screen win(t1,600,400,"Select Level");
+	Explanation description{t1,600,400,"Description"};
+	Splash_screen splash{t1,600,400,"Splash"};
  //description.show();
  //splash.show();
 
