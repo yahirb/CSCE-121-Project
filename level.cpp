@@ -86,7 +86,7 @@ L6_button{Point{300,250},50,50,"Level 6",
 	[](Address, Address pw) {reference_to<Level_screen>(pw).level_6();}},
 L7_button{Point{350,250},50,50,"Level 7",
 	[](Address, Address pw) {reference_to<Level_screen>(pw).level_7();}},
-Select_level{Point{x_max()-115,y_max()-100},"Select a level"}
+Select_level{Point{x_max()-450,y_max()-200},"Select a level"}
 
 
 {
