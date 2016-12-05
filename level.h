@@ -18,8 +18,13 @@ private:
 	Button L5_button;
 	Button L6_button;
 	Button L7_button;
+	Button next;
 	Text Select_level; 
+	Text header;
+	Text title;
+	Text sc_1, sc_2, sc_3, sc_4, sc_5;
 	ifstream TopScores_in {"TopScores_in.txt"};
+	In_box user_name;
 public:
 	Level_screen(Point xy, int w, int h, const string& title);
 	void level_3();
@@ -27,6 +32,7 @@ public:
 	void level_5();
 	void level_6();
 	void level_7();
+	void next1() {hide();}
 };
 
 
