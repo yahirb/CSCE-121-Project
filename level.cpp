@@ -101,7 +101,7 @@ title.set_font_size(50);
 }
 void Level_screen::level_5() 
 {
-	scoresList list(4);
+	scoresList list(5);
 	list.readFile();
 	ostringstream oss1;
 	ostringstream oss2;
@@ -147,7 +147,7 @@ title.set_font_size(50);
 }
 void Level_screen::level_6() 
 {
-	scoresList list(4);
+	scoresList list(6);
 	list.readFile();
 	ostringstream oss1;
 	ostringstream oss2;
@@ -192,7 +192,7 @@ title.set_font_size(50);
 }
 void Level_screen::level_7() 
 {
-	scoresList list(4);
+	scoresList list(7);
 	list.readFile();
 	ostringstream oss1;
 	ostringstream oss2;
